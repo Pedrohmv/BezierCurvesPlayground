@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <br.com.pedromoraes.receiptview.beziercurvesplayground.CurvedView
+    <br.com.pedromoraes.receiptview.beziercurvesplayground.BezierView2
         android:id="@+id/curvedView"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -25,7 +25,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <br.com.pedromoraes.receiptview.beziercurvesplayground.CurvedView2
+    <br.com.pedromoraes.receiptview.beziercurvesplayground.BezierView3
         android:layout_width="0dp"
         android:layout_height="54dp"
         android:elevation="20dp"

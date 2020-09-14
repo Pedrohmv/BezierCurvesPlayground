@@ -14,7 +14,7 @@ import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 
-class CurvedView2(context: Context, attrs: AttributeSet? = null) : FrameLayout(context, attrs) {
+class BezierView3(context: Context, attrs: AttributeSet? = null) : FrameLayout(context, attrs) {
     private val paint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
         style = Paint.Style.FILL
         color = ContextCompat.getColor(context, android.R.color.white)

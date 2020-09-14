@@ -8,7 +8,7 @@ import android.util.AttributeSet
 import android.widget.FrameLayout
 import androidx.core.content.ContextCompat
 
-class CurvedView(context: Context, attrs: AttributeSet? = null) : FrameLayout(context, attrs) {
+class BezierView2(context: Context, attrs: AttributeSet? = null) : FrameLayout(context, attrs) {
     private val paint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
         style = Paint.Style.FILL
         color = ContextCompat.getColor(context, R.color.background)
